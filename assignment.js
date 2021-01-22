@@ -44,7 +44,11 @@ console.log(sum);
 //hotelCost
 ///////////////////////////////////////////////////////////////
 
+function hotelCost(stayInHotel) {
 
+  
+
+}
 
 
 
