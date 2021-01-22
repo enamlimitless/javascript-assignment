@@ -1,7 +1,6 @@
-//kilometerToMeter
-//budgetCalculator
-//hotelCost
-//megaFriend
+//   GITHUB CODE LINK :-
+
+//https://github.com/enamulhaque7/javascript-assignment
 
 
 // kilometerToMeter
@@ -9,17 +8,13 @@
 
  function kilometerToMeter(kilometer){
    // 1 Kilometer = 1000 meter
-    var meter = kilometer * 1000;
-     return meter;
+    var meters = kilometer * 1000;
+     return meters;
  }
 
- var totalMeter = kilometerToMeter(5);
- console.log(totalMeter);
-
-//kilometerToMeter Area End 
-///////////////////////////////////////////////////////////////
-
-
+ // Output 
+ var totalMeters = kilometerToMeter(5);
+ console.log(totalMeters);
 
 
 //budgetCalculator
@@ -33,12 +28,9 @@ function budgetCalculator(sumTotal){
   return sumTotal;
 }
 
+// Output
 var sum = budgetCalculator();
 console.log(sum);
-
-//budgetCalculator End 
-///////////////////////////////////////////////////////////////
-
 
 
 //hotelCost
@@ -62,8 +54,11 @@ function hotelCost(stayInHotel) {
       return totalHotelCost;
   }
 }
-hotelCost(30);
 
+// Output 
+//if i stay 21 days in hotel the cost will be
+var stay21Days = hotelCost(21);
+console.log(stay21Days);
 
 
 //megaFriend
@@ -80,5 +75,7 @@ function megaFriend(names) {
   }
   return word;
 }
+
+// Output
 var largeWord = megaFriend(names);
 console.log(largeWord);
