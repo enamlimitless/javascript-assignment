@@ -46,10 +46,24 @@ console.log(sum);
 
 function hotelCost(stayInHotel) {
 
-  
+  const firstTenDays = 100;
+  const secondTenDays = 80;
+  const lifeTime = 50;
 
+  if (stayInHotel >= 1 && stayInHotel <= 10) {
+    var totalHotelCost = stayInHotel * firstTenDays;
+    return totalHotelCost;
+
+} else if (stayInHotel >= 11 && stayInHotel <= 20) {
+    var totalHotelCost = stayInHotel * secondTenDays;
+    return totalHotelCost;
+
+  } else {
+      var totalHotelCost = stayInHotel * lifeTime;
+      return totalHotelCost;
 }
-
+}
+hotelCost();
 
 
 
